@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+          <!-- pop up page -->
+  <div class="overlay" id="instructionsOverlay">
+    <div class="popup">
+      <h2>Instructions</h2>
+      <p>Welcome to the Simon Game! Here's how to play:</p>
+      <ol>
+        <li>Press any key to start the game.</li>
+        <li>Watch the pattern of colors and remember it.</li>
+        <li>Click on the buttons in the same order as the pattern.</li>
+        <li>If you get the pattern right, the level increases.</li>
+        <li>If you make a mistake, the game is over.</li>
+        <li>Have fun and challenge yourself to reach higher levels!</li>
+      </ol>
+      <button class="close-btn">X</button>
+    </div>
+  </div>
+
+          <!-- game page -->
+  <h1 id="level-title">Press A Key to Start</h1>
+  <p id="score"></p>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Made with ❤️ From shameel</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script src="games.js"></script>
+</body>
+
+</html>
